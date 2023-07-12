@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}   
+
+body{
+    min height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)),url(.//Images/Background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+
+}
+.navBar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    /* margin-left: 60px; */
+    display: flex;
+
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li {
+
+    list-style: none;
+    display: inline-block;
+    margin-left: 70px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #1db954;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.row{
+    position: absolute;
+    top: 25%;
+    display: flex;
+    gap: 10px;
+    height: 50%;
+    align-items: center;
+    
+}
+
+.col{
+   flex-basis: 50%;
+   margin-left: 110px;
+   margin-top: 20px;
+
+   
+}
+.col p{
+    margin-bottom: 60px;
+}
+
+h1{
+    color: #1db954;
+    font-size: 36px;
+    
+}
+p{
+    color: #1db954;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 100;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+button{
+    width: 200px;
+    border-color: #1db954;
+    background-color: #02040700;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 20px 40px;
+    color: #1db954;
+    border-radius: 15px;
+    font-family: 'Roboto';
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+
+button:hover{
+    background-color: #1db954;
+    color: #000;
+    transition: 0.4s;
+}
+.photo{
+    height: 400px;
+    width:400px;
+    display: inline-block;
+    border: 3px solid #1db954;
+    border-radius: 15px;
+    align-items: center;
+
+}
+
+
+.container2{
+    bottom: 1000px;
+    width: 100%;
+    height: auto;
+    background-image: #00000000;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.mySkills{
+    padding-left: 15%;
+    padding-bottom: 40px;
+
+}
+.cardsContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+.Card{
+    background-color: #02040700;
+    width: 300px;
+    margin: 25px;
+    text-align: center;
+    border: 3px solid #1db954;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.card-image{
+    background-color: #00000000;
+    height: 300px;
+    margin: 15px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 80%;
+    
+}
+
+.car-1{
+    background-image: url('Images/User-Experience-Design-Essentials-in-2022-Banner.jpg');
+    height: 200px;
+    width: 200px;
+   
+}
+
+.car-2{
+    background-image: url('Images/ui.png');
+    height: 200px;
+    width: 200px;
+}
+
+.car-3{
+    background-image: url('Images/ui\ design.jpeg');
+    height: 200px;
+    width: 200px;
+}
+
+.Card p{
+    padding: 15px;
+}
+
+.myWork{
+    display: grid;
+    align-items: center;
+    margin-left: 15%;
+    margin-top: 40px;
+    
+}
+.projects{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 83%;
+    margin-top: 30px;
+    
+}
+
+.project-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 3px solid #1db954;
+    margin-top: 30px;
+    border-radius: 15px;
+
+}
+.project-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 3px solid #1db954;
+    margin-top: 20px;
+    border-radius: 15px;
+
+}
+.project-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 3px solid #1db954;
+    margin-top: 20px;
+    border-radius: 15px;
+
+}
+
+h4{
+    color: #1db954;
+    font-size: 18px;
+    
+}
+
+.pro-image{
+    
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.pro-image h1{
+    font-size: 50px;
+    margin-top: 70px;
+    font-style: italic;
+    align-items: center;
+    color: rgb(177, 63, 200);
+}
+
+.pro-image img{
+    height: 200px;
+    
+
+
+}
+.pro-info{
+    align-items: center;
+    text-align: left;
+    margin: 20px;
+
+
+}
+
+.pro-info h4{
+    margin-top: 20px;
+}
+
+
+
+
+.footer{
+   
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    
+
+}
+.email{
+    cursor: pointer;
+    margin-left: 60px;
+    display: flex;
+}
+h2{
+    color: #1db954;
+    font-size: 24px;
+
+}
+h3{ 
+    color: #1db954;
+    font-size: 18px;
+    padding-top: 10px;
+    font-style: italic;
+}
+.socialMedia{
+        text-align: right;
+        flex-basis: 50%;
+        
+}
+.icons{
+    margin: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .row {
+        display: block;
+    }
+
+    .project-1{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .project-2{
+        grid-template-columns: 1fr;
+    
+    }
+    .project-3{
+        grid-template-columns: 1fr;
+        
+    }
+    p{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+    }
+
+}
