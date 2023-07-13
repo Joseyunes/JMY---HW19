@@ -140,6 +140,7 @@ button:hover{
 .mySkills{
     padding-left: 15%;
     padding-bottom: 40px;
+    margin-bottom: 50px;
 
 }
 .cardsContainer{
@@ -147,6 +148,7 @@ button:hover{
     justify-content: center;
     width: 100%;
     flex-wrap: wrap;
+    
     
 }
 
@@ -202,6 +204,7 @@ button:hover{
     align-items: center;
     margin-left: 15%;
     margin-top: 40px;
+    margin-bottom: 50px;
     
 }
 .projects{
@@ -278,7 +281,8 @@ h4{
 }
 
 section{
-    min-height: 100vh;
+
+    min-height: 40vh;
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -288,6 +292,7 @@ section{
 
 .title{
     margin: 16px 0;
+    
 }
 
 .faq{
@@ -321,10 +326,28 @@ section{
 
 .faq.active .answer{
     max-height: 300px;
+    animation: fade .5s ease-in-out;
 }
 
 .faq.active svg{
     transform: rotate(180deg);
+}
+
+svg{
+    transition: transform .5s ease-in;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+    
 }
 
 .footer{
